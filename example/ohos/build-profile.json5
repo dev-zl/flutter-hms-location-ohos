@@ -1,0 +1,52 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/better/.ohos/config/default_ohos_Q5liXWdUr9MC0Iy4tRh0s9r4qcTKisoBlRaFQrPcBCA=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B6F91F0E1E47A6762B4EFB26894273B51640455CBECAC21ACA111EBC3EEBC033298F21755E1921E",
+          "profile": "/Users/better/.ohos/config/default_ohos_Q5liXWdUr9MC0Iy4tRh0s9r4qcTKisoBlRaFQrPcBCA=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/better/.ohos/config/default_ohos_Q5liXWdUr9MC0Iy4tRh0s9r4qcTKisoBlRaFQrPcBCA=.p12",
+          "storePassword": "0000001BFFBA2F51C1697610ABDAC3FF2E27338D86B5F241859353BA030C49F5F0BCA7865C15F093919C8C"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.5(17)",
+        "runtimeOS": "HarmonyOS"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "profile"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

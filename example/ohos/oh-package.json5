@@ -1,0 +1,13 @@
+{
+  "modelVersion": "6.0.2",
+  "name": "huawei_location_example",
+  "version": "1.0.0",
+  "description": "Huawei Location Flutter example for HarmonyOS",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  }
+}
